@@ -25,7 +25,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html')
     }),
-    new DotEnv(),
+    new DotEnv({ systemvars: true }),
   ].filter(Boolean),
   module: {
     rules: [
