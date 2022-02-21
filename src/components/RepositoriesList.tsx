@@ -24,8 +24,6 @@ export function RepositoriesList() {
   const [notFound, setNotFound] = useState(false)
 
   async function handleFindRepositories() {
-    console.log(process.env.TOKEN_GITHUB)
-
     setUser(null)
     setSearching(true)
 
