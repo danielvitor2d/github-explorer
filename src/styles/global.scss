@@ -1,0 +1,33 @@
+:root {
+  --green: #3FD97F;
+  --background: #F3F3F3;
+  --background-top: #16C0A2;
+  --text-title: #505050;
+  --text: #383838;
+  --text-light: #A09CB1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px "Poppins", Arial, sans-serif;
+  color: var(--text);
+}
+
+input, textarea {
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+}
+
+button {
+  cursor: pointer;
+}

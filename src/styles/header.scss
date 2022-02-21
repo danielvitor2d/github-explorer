@@ -1,0 +1,56 @@
+header.header {
+  background: var(--background-top);
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px 60px;
+
+  font-size: 25px;
+
+  height: 250px;
+
+  * {
+    margin-top: 8px;
+  }
+
+  .left-header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    
+    #github-icon {
+      color: #FFF;
+      margin-top: 20px;
+      font-size: 35px;
+    }
+
+    span {
+      display: flex;
+      flex-direction: row;
+
+      margin-left: 10px;
+
+      p {
+        color: #FFF;
+      }
+
+      :first-child {
+        font-weight: 100;
+      }
+
+      :last-child {
+        font-weight: 900;
+      }
+    }
+  }
+
+  .right-header {
+    margin-right: 180px;
+
+    p {
+      color: #FFF;
+      font-size: 30px;
+    }
+  }
+}
